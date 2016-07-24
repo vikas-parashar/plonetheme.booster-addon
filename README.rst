@@ -3,42 +3,27 @@
    This text does not appear on pypi or github. It is a comment.
 
 ==============================================================================
-plonetheme.booster
+Booster
 ==============================================================================
 
-Tell me what your product does
+Booster is a clean and elegant free Plone Theme that is suitable for landing pages and other related businesses.
 
-Features
---------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
+.. image:: https://raw.githubusercontent.com/vikas-parashar/plonetheme.booster/master/preview.png
 
 Installation
 ------------
 
-Install plonetheme.booster by adding it to your buildout::
+Zip
+~~~~~~~~
+In zip version you don't get the slider but only a static banner due to limitations.
+
+#. Download the `zip file`_
+#. Import the theme from the Diazo theme control panel.
+
+Buildout
+~~~~~~~~
+
+Install ``plonetheme.booster`` by adding it to your buildout::
 
     [buildout]
 
@@ -51,22 +36,30 @@ Install plonetheme.booster by adding it to your buildout::
 and then running ``bin/buildout``
 
 
-Contribute
-----------
+Demo
+~~~~
 
-- Issue Tracker: https://github.com/collective/plonetheme.booster/issues
-- Source Code: https://github.com/collective/plonetheme.booster
-- Documentation: https://docs.plone.org/foo/bar
+   This theme can be seen in action at the following site:
 
+-  `Booster Theme Demo`_
 
-Support
--------
+Documentation
+-------------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
-
+Full documentation for end users can be found `here`_
 
 License
 -------
 
-The project is licensed under the GPLv2.
+MIT License
+
+Credit
+------
+
+Based on `Booster`_ Provided by `FREEHTML5.co`_
+
+.. _zip file: https://github.com/vikas-parashar/plonetheme.booster/blob/master/plonetheme.booster.zip?raw=true
+.. _Booster Theme Demo: http://107.170.136.197:8080/booster
+.. _Booster: https://freehtml5.co/booster-free-html5-bootstrap-template/
+.. _FREEHTML5.co: https://freehtml5.co/
+.. _here: https://github.com/vikas-parashar/plonetheme.booster/blob/master/docs/index.rst
