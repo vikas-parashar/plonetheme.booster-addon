@@ -7,15 +7,14 @@ from setuptools import setup
 
 long_description = '\n\n'.join([
     open('README.rst').read(),
-    open('CONTRIBUTORS.rst').read(),
     open('CHANGES.rst').read(),
 ])
 
 
 setup(
     name='plonetheme.booster',
-    version='1.0a1',
-    description="A theme for Plone",
+    version='1.0.2',
+    description="A theme for Plone 5",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -25,13 +24,13 @@ setup(
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Operating System :: OS Independent",
-        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "License :: OSI Approved :: MIT License",
     ],
-    keywords='Python Plone',
+    keywords='Python Plone Theme web',
     author='Vikas Parashar',
     author_email='svnitvikas@gmail.com',
     url='https://pypi.python.org/pypi/plonetheme.booster',
-    license='GPL version 2',
+    license='MIT License',
     packages=find_packages('src', exclude=['ez_setup']),
     namespace_packages=['plonetheme'],
     package_dir={'': 'src'},
