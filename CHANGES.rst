@@ -5,7 +5,7 @@ Changelog
 1.0.4 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Search icon padding adjusted.
 
 
 1.0.3 (2016-07-25)
