@@ -4,6 +4,7 @@ from zope.interface import implementer
 from plone import api
 import os
 
+
 @implementer(INonInstallable)
 class HiddenProfiles(object):
 
@@ -16,7 +17,7 @@ class HiddenProfiles(object):
 
 def post_install(context):
     """Post install script"""
-    if context.readDataFile('plonethemetango_default.txt') is None:
+    if context.readDataFile('plonethemebooster_default.txt') is None:
         return
     # Do something during the installation of this package
     portal = api.portal.get()
@@ -59,6 +60,6 @@ def load_image(slider):
 
 def uninstall(context):
     """Uninstall script"""
-    if context.readDataFile('plonethemetango_uninstall.txt') is None:
+    if context.readDataFile('plonethemebooster_uninstall.txt') is None:
         return
         # Do something during the uninstallation of this package
