@@ -2,7 +2,7 @@ Changelog
 ~~~~~~~~~
 
 
-1.0.6 (unreleased)
+1.0.6 (2016-09-15)
 ------------------
 
 - docs updated.
