@@ -2,7 +2,7 @@ Changelog
 ~~~~~~~~~
 
 
-1.0.5 (unreleased)
+1.0.5 (2016-09-14)
 ------------------
 
 - https://github.com/vikas-parashar/plonetheme.booster/issues/1 fixed.
